@@ -1,0 +1,74 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.highlight{
+    color: orange;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    margin-bottom: 150px;
+}
+p{
+    text-align: justify;
+    color: dimgray;
+}
+.hire-me{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    background-image: linear-gradient(orangered, brown);
+}
+.second-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiences{
+    box-shadow: 10px 10px 40px gray;
+    height: 70%;
+    padding-right: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+.third-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, red, rgb(252, 192, 168));
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, lightblue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
